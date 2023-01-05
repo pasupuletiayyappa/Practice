@@ -3,7 +3,7 @@
     <fullName>All</fullName>
     <columns>NAME</columns>
     <columns>Total_Limit__c</columns>
-    <columns>Remaining_Limit__c</columns>
+    <columns>Used_Limit__c</columns>
     <columns>Usage_Percentage__c</columns>
     <columns>LAST_UPDATE</columns>
     <filterScope>Everything</filterScope>
