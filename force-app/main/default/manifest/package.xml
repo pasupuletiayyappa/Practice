@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>OrgRESTCallout</members>
+        <members>OrgLimitsHandler</members>
+        <members>ScheduleOrgLimits</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Org_Limits__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Org_Limits__c.Total_Limit__c</members>
+        <members>Org_Limits__c.Used_Limit__c</members>
+        <members>Org_Limits__c.Usage_Percentage__c</members>
+        <name>CustomField</name>
+    </types>
+    <version>55.0</version>
+</Package>
