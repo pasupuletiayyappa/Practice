@@ -6,7 +6,7 @@ public void OrgLimitsHandler(){
     map<String, Object> mapJsonData = (map<String, Object>)JSON.deserializeUntyped(response);
     Map<String, Limit_Types__mdt> mapLimitTypes = Limit_Types__mdt.getAll();
     for(String mapLimitType : mapLimitTypes.keySet()){
-        if(mapLimitTypes.get(mapLimitType).Limit_Type_Name__c != null && mapJsonData.containskey(mapLimitTypes.get(mapLimitType).Limit_Type_Name__c)){
+        if(mapLimitTypes.get(mapLimitType).Limit_Type_Name__c != null){
         getJsonDataLimits(mapJsonData,mapLimitTypes.get(mapLimitType).Limit_Type_Name__c);
         }
     }
@@ -34,8 +34,8 @@ public static void getJsonDataLimits(map<String, Object> mapJsonData,String json
     createOrgLimits(jsonTagName,maxLimit,remainingLimit);
     }
 }
-/*Use this Method for Child Nodes*/
-/*public static void getJsonDataRemainingLimits(map<String, Object> mapJsonData,String parentjsonTagName, String jsonTagName){
+
+public static void getJsonDataRemainingLimits(map<String, Object> mapJsonData,String parentjsonTagName, String jsonTagName){
     Integer maxLimit = 0;
     Integer remainingLimit = 0;
     
@@ -44,7 +44,7 @@ public static void getJsonDataLimits(map<String, Object> mapJsonData,String json
     maxLimit = (Integer)mapChildTag.get('Max');
     remainingLimit = (Integer)mapChildTag.get('Remaining');
     createOrgLimits(jsonTagName,maxLimit,remainingLimit);
-}*
+}
 
 public static void createOrgLimits(String LimitType, Integer Max, Integer Remaining){
 List<Org_Limits__c> limitList = new List<Org_Limits__c>();
