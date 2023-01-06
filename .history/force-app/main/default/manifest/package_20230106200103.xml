@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-
-   <types>
+    <types>
         <members>OrgRESTCallout</members>
         <members>OrgLimitsHandler</members>
         <members>ScheduleOrgLimits</members>
@@ -25,23 +24,5 @@
         <members>Limit_Types__mdt</members>
         <name>CustomObject</name>
     </types>
-    
-   <types>
-        <members>unfiled$public/Org_Limit_Usage_Email_Template_1673017193144</members>
-        <name>EmailTemplate</name>
-    </types>
-    <types>
-        <members>Org_Limits__c.Org_Wide_Limit_Usage_Notification_Alert</members>
-        <name>WorkflowAlert</name>
-    </types>
-    <types>
-        <members>Org_Limit_Notification</members>
-        <name>Group</name>
-    </types>
-    <types>
-        <members>Org_Limit_Email_Notification</members>
-        <name>Flow</name>
-    </types>
-
     <version>55.0</version>
 </Package>

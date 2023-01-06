@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Org Limit Usage Email Template</name>
+    <relatedEntityType>Org_Limits__c</relatedEntityType>
+    <style>none</style>
+    <subject>Org Wide Usage Limit reached more than 75%</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>
