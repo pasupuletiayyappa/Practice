@@ -7,8 +7,13 @@ public class OrgLimitsHandlerTest {
         List<Limit_Types__mdt> limitTypeMdt = [SELECT Id, Limit_Type_Name__c FROM Limit_Types__mdt LIMIT 1];
         limtHandler.OrgLimitsHandler();
         
+     }
+    @isTest static void executeSchedule(){
         
-        
-    }
+        SchedulableContext sc = null;
+        ScheduleOrgLimits tsc = new ScheduleOrgLimits();
+        tsc.execute(sc);
+         
+    }  
 
 }
