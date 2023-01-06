@@ -107,14 +107,6 @@
         "childXmlNames": []
       },
       {
-        "directoryName": "externalCredentials",
-        "inFolder": false,
-        "metaFile": false,
-        "suffix": "externalCredential",
-        "xmlName": "ExternalCredential",
-        "childXmlNames": []
-      },
-      {
         "directoryName": "namedCredentials",
         "inFolder": false,
         "metaFile": false,
@@ -123,14 +115,12 @@
         "childXmlNames": []
       },
       {
-        "childXmlNames": [
-          "ExternalDataSrcDescriptor"
-        ],
         "directoryName": "dataSources",
         "inFolder": false,
         "metaFile": false,
         "suffix": "dataSource",
-        "xmlName": "ExternalDataSource"
+        "xmlName": "ExternalDataSource",
+        "childXmlNames": []
       },
       {
         "directoryName": "externalServiceRegistrations",
@@ -340,14 +330,6 @@
         "metaFile": false,
         "suffix": "flowDefinition",
         "xmlName": "FlowDefinition",
-        "childXmlNames": []
-      },
-      {
-        "directoryName": "flowtests",
-        "inFolder": false,
-        "metaFile": false,
-        "suffix": "flowtest",
-        "xmlName": "FlowTest",
         "childXmlNames": []
       },
       {
@@ -711,14 +693,6 @@
         "childXmlNames": []
       },
       {
-        "directoryName": "IPAddressRanges",
-        "inFolder": false,
-        "metaFile": false,
-        "suffix": "IPAddressRange",
-        "xmlName": "IPAddressRange",
-        "childXmlNames": []
-      },
-      {
         "directoryName": "briefcaseDefinitions",
         "inFolder": false,
         "metaFile": false,
@@ -740,46 +714,6 @@
         "metaFile": false,
         "suffix": "site",
         "xmlName": "CustomSite",
-        "childXmlNames": []
-      },
-      {
-        "directoryName": "forecastingTypes",
-        "inFolder": false,
-        "metaFile": false,
-        "suffix": "forecastingType",
-        "xmlName": "ForecastingType",
-        "childXmlNames": []
-      },
-      {
-        "directoryName": "forecastingSourceDefinitions",
-        "inFolder": false,
-        "metaFile": false,
-        "suffix": "forecastingSourceDefinition",
-        "xmlName": "ForecastingSourceDefinition",
-        "childXmlNames": []
-      },
-      {
-        "directoryName": "forecastingTypeSources",
-        "inFolder": false,
-        "metaFile": false,
-        "suffix": "forecastingTypeSource",
-        "xmlName": "ForecastingTypeSource",
-        "childXmlNames": []
-      },
-      {
-        "directoryName": "forecastingFilters",
-        "inFolder": false,
-        "metaFile": false,
-        "suffix": "forecastingFilter",
-        "xmlName": "ForecastingFilter",
-        "childXmlNames": []
-      },
-      {
-        "directoryName": "forecastingFilterConditions",
-        "inFolder": false,
-        "metaFile": false,
-        "suffix": "forecastingFilterCondition",
-        "xmlName": "ForecastingFilterCondition",
         "childXmlNames": []
       },
       {
@@ -891,14 +825,6 @@
         "childXmlNames": []
       },
       {
-        "directoryName": "eventRelays",
-        "inFolder": false,
-        "metaFile": false,
-        "suffix": "eventRelay",
-        "xmlName": "EventRelayConfig",
-        "childXmlNames": []
-      },
-      {
         "directoryName": "callCenters",
         "inFolder": false,
         "metaFile": false,
@@ -995,29 +921,11 @@
         "childXmlNames": []
       },
       {
-        "childXmlNames": [
-          "DigitalExperience"
-        ],
-        "directoryName": "digitalExperiences",
-        "inFolder": false,
-        "metaFile": true,
-        "suffix": "digitalExperience",
-        "xmlName": "DigitalExperienceBundle"
-      },
-      {
         "directoryName": "siteDotComSites",
         "inFolder": false,
         "metaFile": true,
         "suffix": "site",
         "xmlName": "SiteDotCom",
-        "childXmlNames": []
-      },
-      {
-        "directoryName": "digitalExperienceConfigs",
-        "inFolder": false,
-        "metaFile": false,
-        "suffix": "digitalExperienceConfig",
-        "xmlName": "DigitalExperienceConfig",
         "childXmlNames": []
       },
       {
@@ -1230,19 +1138,19 @@
         "childXmlNames": []
       },
       {
+        "directoryName": "accessControlPolicies",
+        "inFolder": false,
+        "metaFile": true,
+        "suffix": "policy",
+        "xmlName": "AccessControlPolicy",
+        "childXmlNames": []
+      },
+      {
         "directoryName": "restrictionRules",
         "inFolder": false,
         "metaFile": false,
         "suffix": "rule",
         "xmlName": "RestrictionRule",
-        "childXmlNames": []
-      },
-      {
-        "directoryName": "fieldRestrictionRules",
-        "inFolder": false,
-        "metaFile": false,
-        "suffix": "rule",
-        "xmlName": "FieldRestrictionRule",
         "childXmlNames": []
       },
       {
@@ -1331,30 +1239,6 @@
         "metaFile": false,
         "suffix": "callCoachingMediaProvider",
         "xmlName": "CallCoachingMediaProvider",
-        "childXmlNames": []
-      },
-      {
-        "directoryName": "userProfileSearchScopes",
-        "inFolder": false,
-        "metaFile": false,
-        "suffix": "userProfileSearchScope",
-        "xmlName": "UserProfileSearchScope",
-        "childXmlNames": []
-      },
-      {
-        "directoryName": "PlatformEventSubscriberConfigs",
-        "inFolder": false,
-        "metaFile": false,
-        "suffix": "platformEventSubscriberConfig",
-        "xmlName": "PlatformEventSubscriberConfig",
-        "childXmlNames": []
-      },
-      {
-        "directoryName": "portalDelegablePermissionSet",
-        "inFolder": false,
-        "metaFile": false,
-        "suffix": "portalDelegablePermissionSet",
-        "xmlName": "PortalDelegablePermissionSet",
         "childXmlNames": []
       },
       {
