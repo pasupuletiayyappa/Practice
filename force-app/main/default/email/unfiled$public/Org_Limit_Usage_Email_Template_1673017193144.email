@@ -4,5 +4,5 @@
 </head>
 <body style="height: auto; min-height: auto;">Hello {{{Organization.Name}}},<br />
 <br />
-Your Organization {{{Org_Limits__c.Name}}} Reached&nbsp;{{{Org_Limits__c.Usage_Percentage__c}}} % and Remaining Usage Limit is&nbsp;{{{Org_Limits__c.Remaining_Limit__c}}}.</body>
+Your Organization {{{Org_Limits__c.Name}}} Reached&nbsp;{{{Org_Limits__c.Usage_Percentage__c}}}% and Remaining Usage Limits are {{{Org_Limits__c.Remaining_Limit__c}}}.</body>
 </html>
