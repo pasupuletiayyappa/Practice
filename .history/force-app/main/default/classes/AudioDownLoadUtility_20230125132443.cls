@@ -9,10 +9,9 @@ public class AudioDownLoadUtility {
         req.setHeader('Content-Type', contentType); //audio/mp3
         req.setCompressed(true); 
         req.setTimeout(60000); 
-        try{
         HttpResponse res  = h.send(req); 
         system.debug('Response from Server: ' + res.getBody()); 
-        
+        try{
             blob retFile = res.getBodyAsBlob();
             return retFile;
         }catch(System.CalloutException ex){
