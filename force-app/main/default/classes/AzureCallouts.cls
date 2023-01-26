@@ -2,11 +2,11 @@ public class AzureCallouts {
     public void AzureCallouts() {
         Http http = new Http();
         HttpRequest request = new HttpRequest();
-        String encodedUrl= EncodingUtil.urlEncode('https://dev.azure.com/Washington-Prime-Group/DealForce Perm to Lightning/_apis/wit/workitems/$Stories?api-version=7.0','UTF-8');
+        String encodedUrl= EncodingUtil.urlEncode('','UTF-8');
         request.setEndpoint(encodedUrl);
         request.setMethod('POST');
         request.setHeader('Content-Type', 'application/json;charset=UTF-8');
-        String tokenId = '2ptgtxb264i5rz3scq4ulrgrgm3hq56xtyxrgo5v7h4wb474l2la';
+        String tokenId = '';
 
         Blob headerValue = Blob.valueOf(tokenId);
         String authorizationHeader = 'BASIC ' +EncodingUtil.base64Encode(headerValue);
